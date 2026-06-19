@@ -8,7 +8,7 @@ if (!isset($_SESSION['admin_name'])) {
 }
 ?>
 <?php
-$basepath ="/w3tec.com";
+require_once __DIR__ . '/includes/config.php';
 $opt = isset($_GET['opt'])? (empty($_GET['opt'])?'dashboard':$_GET['opt']): 'dashboard';
 $course = 'course'; 
 $internship = 'internship';

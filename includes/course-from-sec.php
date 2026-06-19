@@ -1,4 +1,4 @@
-<?php $basepath ="/w3tec.com"; ?>
+<?php require_once __DIR__ . '/config.php'; ?>
 <div class="course-form-sec">
     <div class="container">
         <!-- ====== model to display after form submition==== -->

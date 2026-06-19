@@ -1,4 +1,4 @@
-<?php $basepath= "/w3tec.com"; ?>
+<?php require_once __DIR__ . '/config.php'; ?>
 <header class="header " id="nav-header">
     <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">

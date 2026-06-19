@@ -1,6 +1,5 @@
  <?php 
- $basepath ="/w3tec.com";
-include "db-config.php";
+include __DIR__ . '/db-config.php';
 $name = $_POST['name'];
 $email =$_POST['email'];
 $contact_no = $_POST['contact-no'];
@@ -55,7 +54,7 @@ if($executed){
     $headers2 = "From: $to\r\n";
 
     // $pdfFilePath = "../coursepdfs/$course.pdf"; 
-    $pdfFilePath = "$basepath/coursepdfs/$course.pdf";
+    $pdfFilePath = __DIR__ . "/../coursepdfs/$course.pdf";
     $pdffileName = basename($pdfFilePath); 
 
     $pdfContent = file_get_contents($pdfFilePath);
@@ -143,7 +142,7 @@ if($executed){
 //     $headers .= "Content-Type: multipart/mixed; boundary=\"$boundary\"\r\n";
 
 //     // Email with the course download details
-//     $pdfFilePath = "$basepath/coursepdfs/$course.pdf";
+//     $pdfFilePath = __DIR__ . "/../coursepdfs/$course.pdf";
 //     $pdffileName = basename($pdfFilePath);
 //     $pdfContent = file_get_contents($pdfFilePath);
 //     $pdfEncoded = chunk_split(base64_encode($pdfContent));

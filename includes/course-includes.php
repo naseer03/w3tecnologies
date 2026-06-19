@@ -1,4 +1,4 @@
-<?php $basepath ="/w3tec.com"; ?>
+<?php require_once __DIR__ . '/config.php'; ?>
 <section class="course-includes">
     <div class="container">
         <div class="head">

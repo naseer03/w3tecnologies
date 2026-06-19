@@ -1,5 +1,5 @@
 
-<?php  $basepath = '../w3tec.com';?>
+<?php require_once __DIR__ . '/../includes/config.php'; ?>
 <section class="data-section">
     <h2> Course Enquiry Data </h2>
     <div class="table-responsive">
@@ -18,7 +18,7 @@
                 <tbody>
                     <?php 
                         
-                    include "$basepath/database/db-config.php"; 
+                    include __DIR__ . '/../database/db-config.php';
                     
                     $sql = "SELECT * FROM `course_form`";
                     $data = $conn->query($sql);

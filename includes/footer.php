@@ -1,5 +1,5 @@
 <!-- footer -->
- <?php  $basepath = '/w3tec.com';?>
+ <?php require_once __DIR__ . '/config.php'; ?>
 <section class="footer">
     <div class="container">
         <div class="footer-top">

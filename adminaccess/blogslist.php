@@ -1,5 +1,5 @@
 
-<?php  $basepath = '../w3tec.com';?>
+<?php require_once __DIR__ . '/../includes/config.php'; ?>
 <section class="data-section">
     <h2> Blogs List </h2>
     <div class="table-responsive">
@@ -17,7 +17,7 @@
                 <tbody>
                     <?php 
                     $upload_dir = './blog-images/';
-                    include "$basepath/database/db-config.php"; 
+                    include __DIR__ . '/../database/db-config.php';
                     
                     $sql = "SELECT * FROM `blog_data`";
                     $data = $conn->query($sql);

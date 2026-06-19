@@ -1,4 +1,4 @@
-<?php  $basepath = '/w3tec.com';?>
+<?php require_once __DIR__ . '/config.php'; ?>
 
 <form  method='post' onsubmit="return formValidation(this)" >
     <?php echo "<input type=\"hidden\" name=\"course-name\" value=\"$course_file\">";?> 

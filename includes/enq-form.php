@@ -1,6 +1,6 @@
 
 
-<?php  $basepath = '/w3tec.com';?>
+<?php require_once __DIR__ . '/config.php'; ?>
 <form method="post" onsubmit="return enquiryFormValidation(this)" >
     <?php echo "<input type=\"hidden\" name=\"file-name\" value=\"$file\">";?> 
     <div class="form-ele mb-3">  

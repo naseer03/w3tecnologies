@@ -1,6 +1,6 @@
 <?php
-include './database/db-config.php'; // Include your database configuration
-$basepath = '../w3tec.com';
+include __DIR__ . '/../database/db-config.php';
+require_once __DIR__ . '/../includes/config.php';
 // Get the blog_id from the URL parameters
 $blog_id = $_GET['blog_id'];
 
