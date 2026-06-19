@@ -237,7 +237,7 @@ $file ="index";
             <!-- Data Analytics -->
             <div class="col-12">
                 <div class="data-analytics my-3">
-                    <div class="card">
+                    <div class="card" style="background: linear-gradient(90deg, #0A6E4A 0%, #00C9A7 100%)">
                         <div class="row justify-content-center align-items-center">
                             <div class="col-12 col-lg-5 order-1 order-lg-2 fullstack-card-img">
                                 <img src="./assets/home/grow-skills/dataAnalytics/student.png" alt="student-image" class="img-fluid">

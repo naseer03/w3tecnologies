@@ -353,7 +353,9 @@ video {
 
 }
 .grow-your-skills .data-analytics .card{
+    --bs-card-bg: transparent;
     background: linear-gradient(90deg, #0A6E4A 0%, #00C9A7 100%) !important;
+    background-color: transparent !important;
 }
 .grow-your-skills .full-stack  .card-body .course-name span{
     color: var(--yellow);
