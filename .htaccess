@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteBase /w3tec.com/
+
+# Skip actual files and directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Handle SEO-friendly URLs that end with .php
+# RewriteCond %{HTTP_REFERER} blogs.php
+ RewriteRule ^blogs/([a-zA-Z0-9-]+)\.php$ blog-template.php?blog=$1 [L,QSA]
+# RewriteRule ^([a-zA-Z0-9-]+)\.php$ blog-template.php?blog=$1 [L,QSA]
+
+RewriteCond %{THE_REQUEST} ^.*/index\.php 
+RewriteRule ^(.*)index.php$ /$1 [R=301,L] 
+
+

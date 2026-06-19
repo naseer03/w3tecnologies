@@ -1,0 +1,78 @@
+.banner{
+    background-image: url('../assets/box-bg.png');
+
+}
+.banner .head{
+    padding: 74px 0px;
+}
+a{
+    color: var(--black);
+    font-weight: 600;
+}
+.banner .head h1 {
+    text-align:center;
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 81px;
+    letter-spacing: 1px;
+    color: var(--red);
+}
+.main-head{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 70px;
+    padding: 30px 0px;
+    text-align: center;
+}
+.policy, .terms{
+    margin-bottom: 30px;
+}
+.policy p, .terms p, .careers p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 10px 0px;
+}
+.policy ul li ,.terms ul li, .careers ul li{
+    font-size: 18px;
+    padding: 5px 0px;
+    line-height: 26px;
+}
+.terms ul{
+    padding-left: 16px;
+
+}
+.terms ul li{
+    list-style: disc;
+}
+.careers .description ul{
+    display: flex;
+    gap: 25px;
+    padding: 0;
+}
+.careers .description ul li{
+    list-style: none;
+}
+.careers ul {
+    padding-left: 16px;
+}
+.careers ul li{
+    list-style: disc;
+}
+.nav-link:hover{
+    color: var(--red);
+}
+.nav-pills .nav-link.active{
+    background-color: var(--red);
+}
+/* responsvie */
+@media screen  and (max-width:991px){
+    .main-head{
+        font-size: 40px;
+        line-height: 58px;
+    }
+    .policy p, .terms p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

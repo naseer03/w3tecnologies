@@ -1,0 +1,40 @@
+.contact-banner{
+    background:url('../assets/box-bg.png'); 
+}
+h2 {
+    font-weight: 700 !important;
+}
+.contact-banner .banner{
+    padding: 54px 0px;
+}
+.contact-banner .banner-head{
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 81px;
+    letter-spacing: 1px;
+}
+.contact-banner .banner-head span{
+    color: var(--red);
+}
+.contact-banner .banner-text{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 38px; 
+}
+
+.contact-form-section{
+    padding: 54px 0px;
+}
+.contact-form-section p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 20px;
+}
+.contact-form-section form{
+    padding: 40px 20px 0px;
+    margin: 0;
+}
+.contact-form-section form .form-control {
+    color: #000;
+}

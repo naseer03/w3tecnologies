@@ -1,0 +1,488 @@
+.about-us-banner{
+    background-image: url(../assets/about/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 464px;
+}
+.about-us-banner .banner-main-heading h1{
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 81px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.about-us-banner .banner-main-heading h1>span{
+    color: var(--red);
+}
+.banner-main-heading {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* =================================== */
+/* about us content section */
+/* ==================================== */
+.about-us-content-sec{
+    background-color: var(--bg-black);
+    width: 100%;
+}
+.about-us-content>div p{
+    color: #FFFFFFCC;
+}
+.about-us-content div:first-child p, .about-us-content div:last-child p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.about-us-content div:first-child p span{
+    font-weight: 700;
+    color: var(--white);
+}
+.about-us-content div:first-child p span::before{
+    content: '';
+    width: 50px;
+    height: 42px;
+    display: inline-block;
+    background-image: url(../assets/about/quotes.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+    margin-bottom: -5px;
+}
+.about-us-content>div:nth-child(2){
+    margin: 25px 0px;
+}
+.about-us-content div:nth-child(2) p{
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 300;
+    color: #FFFFFFCC;
+}
+.about-us-content div:nth-child(2)>div p{
+    font-size: 44px;
+    line-height: 82px;
+    font-weight: 700;
+    color: var(--white);
+}
+.about-us-content div:nth-child(2)>div p span{
+    color: var(--black);
+    background-color: var(--yellow);
+    padding: 0px 8px;
+}
+.about-us-content{
+    padding: 40px;
+}
+.about-us-ceo-img-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: flex-end; */
+}
+.about-us-ceo-img-sec div:last-child p{
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #FFFFFFCC;
+}
+.about-us-ceo-img-sec div:last-child{
+    margin-top: 25px;
+    margin-left: 22px;
+}
+.about-us-ceo-img-sec div:last-child p::before{
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: var(--yellow);
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 11px;
+    margin-bottom: 2px;
+}
+.about-us-ceo-img-sec div:last-child h6{
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 700;
+    color: var(--white);
+}
+.about-us-ceo-img-sec div:last-child h6 span{
+    color: var(--yellow);
+}
+.about-us-ceo-img-sec div:last-child h6::before {
+    content: '';
+    width: 10px;
+    height: 18px;
+    margin-left: 4px;
+    margin-right: 7px;
+    border-left: 1px solid #FFFFFFCC;
+    display: inline-block;
+}
+/* =============================== */
+/* visiona nd mission section */
+/* ================================== */
+.vision-mission-main-sec{
+    background-color: #FEFFD2;
+    width: 100%;
+    padding: 60px 0px;
+}
+.vision-mission-txt .vision-mission-icon{
+    text-align: center;
+}
+.vision-mission-txt .vision-mission-icon img{
+    width: 128px;
+}
+.vision-mission-txt .vision-mission-icon h2{
+    font-weight: 700;
+    margin: 20px 0px ;
+}
+.vision-mission-txt p{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.border-right {
+    border-right: 2px solid #00000033;
+    padding-right: 30px;
+    
+}
+.border-left{
+    padding-left:30px;
+}
+/* ============================ */
+/* why w3 technolgoies section */
+/* ============================== */
+.why-w3-tec-sec-main{
+    padding: 60px 0px;
+}
+.why-w3-tec-heading h2{
+    font-size: 44px;
+    font-weight: 700;
+    color: var(--black);
+    line-height: 70px;
+    text-align: center;
+}
+.why-w3-tec-heading h2 span{
+    background-color: var(--yellow);
+    padding: 0px 7px;
+}
+.why-w3-tec-heading p{
+    font-size: 34px;
+    line-height: 52px;
+    font-weight: 300;
+    color: var(--black);
+    text-align: center;
+    padding: 0px 60px;
+    margin: 20px 0px 0px;
+}
+.why-w3-tec-heading h4{
+    font-size: 34px;
+    line-height: 70px;
+    color: var(--black);
+    font-weight: 700;
+    text-align: center;
+}
+.why-w3-tec-heading h4 span{
+    background-color: var(--red);
+    padding: 0px 8px;
+    color: var(--white);
+}
+.why-w3-card-main {
+    text-align: center;
+    padding: 10px 30px;
+    margin-top: 15px;
+    position: relative;
+}
+.why-w3-card-main .why-w3-card-img{
+    background-color: #EEEEEE;
+    padding: 30px;
+    border-radius: 10px;
+    height: 197px;
+}
+.why-w3-card-main p{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+    color: var(--black);
+    margin-top: 20px;
+}
+.why-w3-border-right{
+    position: absolute;
+    width: 2px;
+    height: 180px;
+    background: #EEEEEE;
+    right: -15px;
+}
+/* ========================== */
+/* our motive section */
+/* ============================= */
+.our-motive-sec-main{
+    background-color: var(--yellow);
+    padding: 60px 0px;
+}
+.our-motive-heading-sec h2{
+    font-size: 34px;
+    font-weight: 300;
+    color: var(--black);
+    line-height: 56px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.our-motive-heading-sec h2 span{
+    font-weight: 600;
+}
+.our-motive-heading-sec h2 span:last-child{
+    background-color: var(--red);
+    padding: 0px 7px;
+    color: var(--white);
+}
+.our-motive-txt ul{
+    list-style: none;
+    margin-top: 70px;
+}
+.our-motive-txt ul li{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 1px;
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+.our-motive-txt ul li span:last-child{
+    font-weight: 300;
+}
+.our-motive-txt ul li span:first-child{
+    background-color: #FEFFD2;
+    padding: 0px 7px;
+}
+.our-motive-txt ul li::before{
+    content: '';
+    width:50px;
+    height:50px;
+    background-image: url(../assets/about/check-box.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 18px;
+}
+/* =========================== */
+/* our core values */
+/* ========================== */
+.our-values-main-sec{
+    padding: 60px 0px;
+}
+.our-values-main-sec .our-values-heading{
+    text-align: center;
+    font-size: 44px;
+    font-weight: 700;
+    color: var(--black);
+    line-height: 66px;
+}
+.our-values-main-sec .our-values-heading span{
+    background-color: var(--yellow);
+    padding: 0px 8px;
+}
+.our-core-values-card{
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+.our-core-values-card .our-core-values-img{
+    background-color: #EEEEEE;
+    border-radius: 6px;
+    padding: 15px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.our-core-values-img img{
+    width: 83px;
+    height: 83px;
+}
+.our-core-values-card h3{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    color: var(--black);
+    margin-top: 20px;
+}
+.our-core-values-card p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 36px;
+}
+.our-values-border{
+    position: relative;
+}
+.our-core-values-card .our-values-border::after{
+    content: '';
+    width: 1px;
+    height: 180px;
+    background-color: #B5B5B5;
+    display: inline-block;
+    position: absolute;
+    right: -40px;
+    top: 0px;
+}
+
+.our-core-value-border{
+    position: absolute;
+    bottom: 0px;
+    width: 2px;
+    height: 100px;
+    background-color: #666666;
+}
+
+/* ======================== */
+/* responsive */
+/* ========================= */
+@media only screen and (max-width:1400px){
+    .our-motive-heading-sec h2{
+        font-size: 32px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width:1024px){
+
+}
+@media only screen and (max-width:992px){
+    .our-core-values-card .our-values-border::after{
+        display: none;
+    }
+    .our-motive-txt ul li{
+        font-size: 24px;
+    }
+    .our-motive-txt ul li::before {
+        content: '';
+        width: 40px;
+        height: 40px;
+    }
+    .our-motive-heading-sec h2{
+        width: unset;
+        font-size: 28px;
+    }
+    .why-w3-border-right{
+        display: none;
+    }
+    .why-w3-card-main .why-w3-card-img{
+        height: unset;
+    }
+    .vision-mission-txt p{
+        margin-top: 20px;
+    }
+    .vision-mission-txt .vision-mission-icon h2{
+        padding-top: 10px;
+    }
+    .about-us-banner{
+        height: auto;
+    }
+    .banner-main-heading{
+        padding: 30px 0px;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width:991px){
+    .why-w3-tec-heading h2{
+        font-size:36px;
+    }
+    .why-w3-tec-heading p {
+        font-size: 26px;
+        line-height: 42px;
+    }
+    .why-w3-tec-heading h4{
+        font-size: 28px;
+    }
+    .why-w3-card-main p{
+        font-size: 20px;
+    }
+    .vision-mission-txt .vision-mission-icon h2 {
+        margin: 0px 0px;
+        font-size: 28px;
+    }
+    .about-us-ceo-img-sec{
+        align-items: center;
+    }
+}
+@media only screen and (max-width:768px){
+    .about-us-content div:first-child p, 
+    .about-us-content div:last-child p{
+        font-size: 16px;
+    }
+    .about-us-content div:nth-child(2) p {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .about-us-content div:nth-child(2)>div p {
+        font-size: 36px;
+    }
+    .about-us-ceo-img-sec{
+        align-items: center;
+    }
+    .border-right{
+        border-right: none;
+        padding-right: 0px;
+    }
+    .border-left{
+        padding-left: 0px;
+    }
+    .vision-mission-txt {
+        padding: 0px 20px;
+    }
+    .why-w3-tec-heading h2,
+    .vision-mission-txt .vision-mission-icon h2{
+        font-size: 34px;
+        line-height: 54px;
+    }
+    .why-w3-tec-heading p {
+        font-size: 26px;
+        line-height: 40px;
+        padding: 0px;
+    }
+    .why-w3-tec-heading h4{
+        font-size: 24px;
+        line-height: 50px;
+    }
+    .why-w3-border-right{
+        display: none;
+    }
+    .why-w3-card-main{
+        margin-top:25px;
+    }
+    .our-motive-heading-sec h2{
+        width: unset;
+    }
+    .our-motive-txt ul li {
+        font-size: 20px;
+        letter-spacing: unset;
+    }
+    .our-motive-txt ul li::before{
+        width: 35px;
+        height: 35px;
+    }
+    .our-values-main-sec .our-values-heading{
+        font-size: 34px;
+    }
+    .our-core-values-card h3{
+        font-size: 28px;
+    }
+    .our-core-values-card p{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .our-core-values-card .our-values-border::after{
+        display: none;
+    }
+    
+}
+@media only screen and (min-width: 578px) and (max-width:768px){
+
+}
+@media only screen and (max-width:576px){
+    .about-us-content{
+        padding: 30px 15px 0px 15px;
+    }
+    .why-w3-tec-heading h4{
+        font-size: 24px;
+    }
+}

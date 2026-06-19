@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 133.33 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a259ff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #1abcfe;
+      }
+
+      .cls-4 {
+        fill: #0acf83;
+      }
+
+      .cls-5 {
+        fill: #f24e1e;
+      }
+
+      .cls-6 {
+        fill: #ff7262;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path class="cls-2" d="M0,0h133.33v200H0V0Z"/>
+    <path class="cls-3" d="M66.67,100c0-18.41,14.92-33.33,33.33-33.33s33.33,14.92,33.33,33.33-14.92,33.33-33.33,33.33-33.33-14.92-33.33-33.33Z"/>
+    <path class="cls-4" d="M0,166.67c0-18.41,14.92-33.33,33.33-33.33h33.33v33.33c0,18.41-14.92,33.33-33.33,33.33S0,185.08,0,166.67Z"/>
+    <path class="cls-6" d="M66.67,0v66.67h33.33c18.41,0,33.33-14.92,33.33-33.33S118.41,0,100,0h-33.33Z"/>
+    <path class="cls-5" d="M0,33.33c0,18.41,14.92,33.33,33.33,33.33h33.33V0h-33.33C14.92,0,0,14.92,0,33.33h0Z"/>
+    <path class="cls-1" d="M0,100c0,18.41,14.92,33.33,33.33,33.33h33.33v-66.67h-33.33C14.92,66.67,0,81.59,0,100h0Z"/>
+  </g>
+</svg>

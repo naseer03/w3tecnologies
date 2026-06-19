@@ -1,0 +1,103 @@
+.banner{
+    background-image: url('../assets/box-bg.png');
+
+}
+.banner .head{
+    padding: 74px 0px;
+}
+a{
+    color: var(--black);
+    font-weight: 600;
+}
+.banner .head h1 {
+    text-align:center;
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 81px;
+    letter-spacing: 1px;
+    color: var(--red);
+}
+/* ==  forms== */
+form label{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+form input{
+    padding: 5px;
+    background-color: #fcfcfc90;
+    border-radius: 5px; 
+    margin-bottom: 15px;
+}
+.form-sec .card form .form-check-input{
+    width: 10px !important;
+    height: 10px !important;
+    padding: 10px;
+    border-color:  black !important;
+}
+form .form-check-label {
+    font-size: 16px;
+    padding: 10px 5px;
+}
+.form-sec{
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.form-sec h2{
+    font-size: 32px;
+}
+.form-sec h2, .form-sec p {
+    text-align: center;
+}
+.form-sec .card form{
+  padding: 0;
+ 
+}
+.form-success, .form-error{
+    text-align: left;
+    max-width: 400px;
+}
+/* .form-sec .card form input{
+  width: 360px;
+} */
+.form-sec .card{
+    padding: 20px;
+    background-color: #ffffffcd !important;
+    box-shadow: 0 1px 5px 4px rgba(0, 0, 0, 0.056);
+}
+.form-sec .card form input{
+    border-color: rgba(218, 220, 222, 0.195) !important;
+}
+/* .form-sec .submit-btn{
+    width: auto !important;
+} */
+ @media screen and (max-width:520px) {
+
+    .banner .head h1 {
+   
+    font-size: 36px;
+ 
+    line-height: 44px;
+ 
+}
+.form-sec h2{
+    font-size: 24px;
+}
+.form-sec .card form {
+    margin: 5px;
+}
+form .submit-btn{
+   width: 100%;
+   text-align: center;
+}
+form .form-check-label {
+    font-size: 14px;
+    padding: 10px 5px  !important;
+}
+
+ }

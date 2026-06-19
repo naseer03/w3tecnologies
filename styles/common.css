@@ -1,0 +1,295 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --font:"Poppins", sans-serif;
+    --black:#000;
+    --light-black: #313131;
+    --red: #E10000;
+    --white:#FFF;
+    --bg-black :#0E0E0E;
+    --light-gray: #EEEEEE;
+    --yellow:#FFE600;
+    --bluish-gray: #4F607A;
+    --brown: #964500;
+    --green:#008000 
+}
+body{
+    font-family: var(--font);
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    padding: 0;
+    margin: 0;
+}
+ul li,ol li{
+    list-style: none;
+}
+p{
+    margin-bottom: 0;
+}
+h2{
+font-size: 44px;
+
+}
+.form-success{
+    color:var(--green) ;
+}
+.form-error{
+    color: var(--red);
+}
+   .banner .register-btn, .have-questions .callback-btn {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 28.5px;
+    padding: 5px 15px;
+    color: var(--white);
+    background-color: var(--black);
+    border-radius: 10px;
+    }
+    .banner .telNo-btn,.have-questions .telNo-btn{
+    background-color: var(--red);
+    color: var(--white);
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 28.5px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    }
+    /* ---------have any questions--------- */
+    .have-questions{
+        padding: 76px 0px;
+        background-image: url('../assets/home/parent-company/background-image.png');  
+    }
+    .have-questions .head{
+        /* font-size: 44px; */
+        font-weight: 700;
+        line-height: 66px;
+        text-align: left;
+    }
+    .have-questions .head span{
+        background-color: var(--yellow);
+        padding: 0 10px;
+    }
+    .have-questions  .text{
+        font-size: 34px;
+        font-weight: 400;
+        line-height: 51px; 
+        padding: 30px 0px;   
+    }
+    .have-questions  .text span{
+        font-weight: 700;
+    }
+    /* ============= */
+    /* course-includes */
+      /* ============= */
+    .course-includes{
+        padding: 54px 0px;
+    }
+    .course-includes .head{
+        font-weight: 700;
+        line-height: 70px;
+        text-align: center;
+        color:  var(--black);
+    }
+    .course-includes .head span{
+        margin-right: 3px;
+        background-color: var(--yellow);
+        padding: 2px 3px 2px 6px;
+    }
+    .course-includes .cards-part{
+        margin-top: 30px;
+    }
+    .course-includes .card{
+        background-color: var(--light-gray);
+        color: var(--black);
+        padding: 24px 0px;
+    }
+    
+    .course-includes .card .card-title{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 42px;
+        text-align: center;
+        padding-top: 10px;
+    
+    }
+    /* =======course-form-sec======= */
+    .course-form-sec{
+        padding: 76px 0px;
+        background-image: url('../assets/course-form-sec/background.png');
+    }
+    .course-form-sec .head{
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 70px;
+        text-align: center;
+        margin-bottom: 20px;
+    
+    }
+    .course-form-sec .call-us{
+        margin-top: 60px;
+    }
+    .course-form-sec .call-us .call-text{
+        margin-bottom: 35px;
+        font-size: 34px;
+        font-weight: 400;
+        line-height: 51px;
+        text-align: left;
+    }
+    .course-form-sec .call-us .telNo-btn{
+        background-color: var(--black);
+        color: var(--white);
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 28.5px;
+        padding: 15px 30px;
+        border-radius: 10px;
+        box-shadow: -2px 2px 7px 0px #00000066;
+        }
+        .course-form-sec .call-us .telNo-btn .tel-no{
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 33px;
+        text-align: left;
+        padding-left: 12px;
+        }
+    .course-form-sec .head span{
+        background-color: var(--red);
+        color: var(--white);
+        padding: 0px 3px;
+    
+    }
+    .course-form-sec .fill-form{
+        font-size: 34px;
+        font-weight: 400;
+        line-height: 70px;
+        text-align: left;
+        
+    }
+    .course-form-sec .text{
+        font-size: 40px 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+        
+    }
+    .course-form-sec .query-list{
+        margin: 30px 0px;
+    }
+    .course-form-sec .query-list li{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 40px;
+        text-align: left;
+    
+    }
+    .course-form-sec .query-list li span{
+        display: inline-block;
+    }
+    .course-form-sec .query-list li::before{
+        content: " ";
+        display: inline-block;
+        width: 27px;
+        height: 27px;
+        background: url("../assets/course-form-sec/check-box.png");
+    }
+    /* ======form===== */
+    form{
+        padding: 40px 20px;
+        background:var(--white);
+        border-radius: 10px;
+        margin: 20px;
+    }
+ 
+    form .form-control{
+        border: 1px solid #ebebeb;
+        padding: 10px 20px;
+        background:rgb(247 247 247 / 70%);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 36px;
+        color: #666;
+        text-align: left;
+    }
+    form .form-check-input{
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+    }
+  form .form-check-label{
+    font-size: 18px;
+    padding: 5px;
+
+  }
+  form .course{
+    background: #FFFACF !important;
+    color: var(--black) !important;
+
+  }
+  form .submit-btn{
+    background: var(--red);
+    border-radius: 10px;
+    border: 2px solid var(--red);
+    padding: 5px 15px;
+    margin-top: 5px;
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    box-shadow: -2px 2px 7px 0px #00000066;
+  }
+  .form-error{
+    color:var(--red);
+}
+.form-check-input,.form-select,.form-select option{
+    cursor: pointer !important;
+}
+.modal .modal-body form{
+    padding: 0;
+}
+  /*--- responsive---- */
+
+  @media screen and (max-width:991px){
+    h2{
+        font-size: 34px;
+    }
+    .have-questions .text {
+        font-size: 26px;
+        line-height: 45px;
+     }
+  }
+
+  @media screen and (max-width:767px){
+    h2{
+        font-size: 30px;
+    }
+
+    .have-questions{
+        padding: 36px 0px;
+    }
+    .have-questions .text {
+        font-size: 18px;
+        line-height: 30px;
+        padding: 15px 0px;
+    }
+  }
+  @media screen and (max-width:575px){
+    .banner .register-btn, .have-questions .callback-btn,  .banner .telNo-btn,.have-questions .telNo-btn {
+        font-size: 12px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        }
+        h2{
+            font-size: 23px;
+        }
+        form .form-control{
+            font-size: 16px;
+            padding: 10px;
+        }
+  }

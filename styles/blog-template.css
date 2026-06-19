@@ -1,0 +1,43 @@
+  /* ==individual blog== */
+  .blog-head{
+    background-color: var(--yellow);
+  }
+  .blog-post .blog-data{
+    padding: 56px 0px;
+  }
+  h1{
+    font-size: 70px;
+    font-weight: 600;
+   }
+   h1, h2, h3{
+    padding: 15px 0px;
+  }
+  .blog-post ol{
+    padding-left: 32px;
+  }
+  .blog-post ol li{
+    list-style-type: auto;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 5px 0px;
+    
+  }
+  .blog-post .blog-data p{
+    font-size: 18px;
+    line-height: 22px;
+    padding: 10px 0px;
+    line-height: 26px;
+  }
+  @media screen and (max-width:575px){
+    h1{
+        font-size: 44px;
+        line-height: 48px;
+    }
+    .blog-post .blog-data{
+     padding: 24px 0px;
+    }
+    .blog-post .blog-data p , .blog-post ol li{
+        font-size: 16px;
+    }
+  }
+ 

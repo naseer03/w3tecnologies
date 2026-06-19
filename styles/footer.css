@@ -1,0 +1,103 @@
+/* -----footer---- */
+
+.footer{
+    background-color: var(--bg-black);
+    padding: 54px 0px;
+    color: #FFFFFFA6;
+}
+ .footer a{
+    color: #FFFFFFA6 !important;
+}
+.footer h4, .footer h6{
+    color: var(--white);
+}
+.footer .footer-top{
+    padding: 30px 0px 54px 0px;
+}
+.footer .footer-top .learn-with-w3{
+    margin: 30px 0px;
+    border-left: 0.5px solid #FFFFFF66;
+    padding-left: 20px;
+}
+.footer .footer-top .contact-us{
+    padding: 0 50px;
+}
+.footer .footer-top .contact-us .contact-icon{
+    width: 20px;
+    height: 20px;
+}
+.footer .footer-top .contact-us .contact-details span{
+    margin-left: 20px;
+}
+.footer .footer-top .location,.footer .footer-top .phone ,.footer .footer-top .email{
+    padding: 5px 0px;
+}
+.footer .company li,.footer .support li,.footer .footer-courses .sub-courses li{
+    line-height: 2;
+}
+/* ------- */
+.footer .footer-courses{
+    padding: 15px 0px;
+}
+.footer .footer-courses .course-name{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+
+}
+.footer .footer-courses .sub-courses{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+
+
+}
+.footer .footer-courses .sub-courses li::after{
+    content: "|";
+    padding: 0px 10px;
+
+}
+.footer .footer-courses .sub-courses li:last-child::after{
+    content: "";
+}
+.footer .footer-bottom .copy-rights{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.footer .footer-bottom .copy-rights a{
+     color: var(--white);
+     font-weight: 600;
+}
+@media only screen and (max-width: 991px){
+    .footer .footer-top .contact-us{
+        padding: 0 ;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .company>ul,
+    .support>ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .company>ul li,
+    .support>ul li {
+        margin-right: 13px;
+    }
+    .company>ul li:not(:last-child)::after,
+    .support>ul li:not(:last-child)::after {
+        content: '|';
+        margin-left: 13px;
+        font-size: 13px;
+    }
+    .footer{
+        padding: 30px 0px;
+    }
+    .footer .footer-top{
+        padding: 30px 0px 25px 0px;
+    }
+}

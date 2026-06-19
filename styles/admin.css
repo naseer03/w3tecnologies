@@ -1,0 +1,83 @@
+.admin-banner-sec{
+    background-image: url('../assets/box-bg.png');
+}
+.admin-banner-sec .banner-head{
+    padding: 74px 0px ;
+}
+.admin-banner-sec .banner-head h1{
+    font-size: 74px;
+    font-weight: 800;
+    line-height: 69px;
+    letter-spacing: 1px;
+    color: var(--red);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+}
+.admin-banner-sec .banner-head h1 span{
+    color: var(--black);
+}
+form label{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+form input{
+    padding: 5px;
+    background-color: #fcfcfc90;
+    border-radius: 5px; 
+    margin-bottom: 15px;
+}
+/* == Register forms== */
+.form-sec{
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.form-sec .card form{
+  padding: 0;
+ 
+}
+.form-sec .card form input{
+  width: 360px;
+}
+.form-sec .card{
+    padding: 20px;
+    background-color: #ffffffcd !important;
+    box-shadow: 0 1px 5px 4px rgba(0, 0, 0, 0.056);
+}
+.form-sec .card form input{
+    border-color: rgba(218, 220, 222, 0.195) !important;
+}
+/* ==blog creation page */
+.tox .tox-promotion, .tox .tox-statusbar{
+    display: none !important;
+  }
+  .tox .tox-editor-container{
+    border-radius: 10px;
+    border: 2px solid var(--black)
+  }
+  .meta-text{
+    border: 2px solid var(--black);
+    height:200px;
+    border-radius: 5px;
+  }
+  .create-blog-head{
+    font-size: 44px;
+    line-height:54px ;
+    font-weight: 700;
+  }
+  .blogs{
+    padding: 56px 0px;
+  }
+  .blogs h2{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 30px;
+  }

@@ -1,0 +1,103 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+}
+.whole-content-area{
+    display: grid;
+    grid-template-columns:20% 80%;
+    height: 100vh;
+}
+.left-side-tabs{
+    box-shadow: 3px 0px 8px 2px rgb(0 0 0 / 10%);
+
+} 
+.left-side-tabs .logo{
+    padding: 30px;
+}
+.main-tabs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 680px;
+}
+.main-tabs a{
+    display: block;
+    padding: 5px 60px;
+}
+.main-tabs ul li, .main-tabs .logout{
+    font-weight: 600;
+    font-size: 24px;
+
+    border-bottom: 1px solid  #EEEEEE;;
+}
+
+.main-tabs .logout{
+    border: 2px solid #000;
+    color: #f00;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.main-tabs .left-side-li-active a {
+    color: #f00;
+    font-weight: 900;
+}
+
+.right-side-content-area{
+    background-color: #dcdcdc1a;
+    overflow: auto;
+}
+.data-section {
+    margin-top: 30px;
+
+}
+.data-section h2{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+    text-align: center;
+}
+.table-responsive{
+    margin: 0px 30px;
+    border-radius: 5px;
+    box-shadow: 2px 1px 3px rgb(169, 169, 169);
+}
+#table_wrapper{
+    padding: 10px;
+}
+table{
+    margin: 20px 0px !important;
+}
+table ,th , td {
+    border: 1px solid black;
+}
+td{
+    text-align: left;
+}
+.active>.page-link, .page-link.active{
+    background-color: #E10000 !important;
+    border-color: #E10000 !important;
+}
+.table-responsive label{
+    font-size: 20px;
+}
+/* ==blogs list == */
+.blog-list-image{
+    width: 200px;
+    height: 120px;
+}
+.action-icon{
+    width: 40px;
+    height: 40px;
+}
+.action-btns{
+    display: block;
+    padding: 20px;
+    width: 100%;
+}
