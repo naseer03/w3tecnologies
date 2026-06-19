@@ -234,6 +234,45 @@ $file ="index";
                     </div>
                 </div>
             </div>
+            <!-- Data Analytics -->
+            <div class="col-12">
+                <div class="data-analytics my-3">
+                    <div class="card">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-12 col-lg-5 order-1 order-lg-2 fullstack-card-img">
+                                <img src="./assets/home/grow-skills/dataAnalytics/student.png" alt="student-image" class="img-fluid">
+                            </div>
+                            <div class="col-12 col-lg-7 order-2 order-lg-1">
+                                <div class="card-body d-flex flex-column gap-2 gap-md-4">
+                                    <h3 class="course-name">Data <br class="d-none d-lg-block"><span>Analytics</span></h3>
+                                    <div>
+                                        <p class="course-info">Data Analytics is the process of examining, cleaning, transforming, and modelling data to discover useful information, draw conclusions, and support decision-making. It combines statistical techniques, programming, and domain knowledge to extract insights from structured and unstructured data.</p>
+                                        <p class="course-info">From building dashboards and visualizations to applying machine learning models, data analysts help organizations make smarter, data-driven decisions across industries like finance, healthcare, e-commerce, and more.</p>
+                                    </div>
+                                    <div class="course-lang">
+                                        <img src="./assets/home/grow-skills/dataAnalytics/python.svg" alt="python">
+                                        <img src="./assets/home/grow-skills/dataAnalytics/sql.svg" alt="sql">
+                                        <img src="./assets/home/grow-skills/dataAnalytics/excel.svg" alt="excel">
+                                        <img src="./assets/home/grow-skills/dataAnalytics/powerbi.svg" alt="power-bi">
+                                        <img src="./assets/home/grow-skills/dataAnalytics/tableau.svg" alt="tableau">
+                                        <img src="./assets/home/grow-skills/dataAnalytics/pandas.svg" alt="pandas">
+                                        <img src="./assets/home/grow-skills/dataAnalytics/numpy.svg" alt="numpy">
+                                        <img src="./assets/home/grow-skills/dataAnalytics/matplotlib.svg" alt="matplotlib">
+                                    </div>
+                                    <div class="explore-course d-flex flex-column align-items-center gap-2 flex-md-row align-items-lg-start gap-sm-4 pt-3">
+                                        <a href="./courses/data-analytics.php" class="explore-btn">Explore</a>
+                                        <div>
+                                            <h5 class="explore-course-name">All Data Analytics</h5>
+                                            <p class="explore-intern-course">Internships & Courses</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Graphic & UI/UX Designing -->
             <div class="col-12">
                 <div class="designing my-3">
                     <div class="card" >
