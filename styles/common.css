@@ -1,5 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Images carry width/height attributes so space is reserved while they lazy-load.
+   Keep the height following the width, as it did before; zero specificity so any CSS height still wins. */
+:where(img[height]) {
+    height: auto;
+}
 :root{
     --font:"Poppins", sans-serif;
     --black:#000;
@@ -60,7 +64,7 @@ font-size: 44px;
     /* ---------have any questions--------- */
     .have-questions{
         padding: 76px 0px;
-        background-image: url('../assets/home/parent-company/background-image.png');  
+        background-image: url('/assets/home/parent-company/background-image.webp');  
     }
     .have-questions .head{
         /* font-size: 44px; */
@@ -118,7 +122,7 @@ font-size: 44px;
     /* =======course-form-sec======= */
     .course-form-sec{
         padding: 76px 0px;
-        background-image: url('../assets/course-form-sec/background.png');
+        background-image: url('/assets/course-form-sec/background.webp');
     }
     .course-form-sec .head{
         font-size: 44px;
@@ -196,7 +200,7 @@ font-size: 44px;
         display: inline-block;
         width: 27px;
         height: 27px;
-        background: url("../assets/course-form-sec/check-box.png");
+        background: url("/assets/course-form-sec/check-box.png");
     }
     /* ======form===== */
     form{

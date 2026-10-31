@@ -1,5 +1,5 @@
 .courses-main-banner-sec{
-    background-image: url(../../assets/courses/Bg.png);
+    background-image: url(/assets/courses/Bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
@@ -136,7 +136,7 @@
     width: 20px;
     height: 20px;
     display: inline-block;
-    background-image: url(../../assets/courses/pdf-icon.svg);
+    background-image: url(/assets/courses/pdf-icon.svg);
     background-repeat: no-repeat;
     background-size: contain;
     margin-right: 6px;

@@ -19,7 +19,7 @@ video {
 
 /* imp */
 .box-effect {
-	background-image: url("../assets/box-effect.png");
+	background-image: url("/assets/box-effect.png");
 	background-position: 0px 12%;
 	width: 100%;
 	height: 100%;
@@ -398,7 +398,7 @@ video {
 /* -------certificate section----- */
 .certificate-sec{
     padding: 76px 0px;
-    background-image: url('../assets/home/certification/certification-sec-bg.png');
+    background-image: url('/assets/home/certification/certification-sec-bg.webp');
     color: var(--white);
 }
 .certificate-sec .elevate .elevate-text{
@@ -540,10 +540,10 @@ video {
     position: relative;
 }
 .student-says .video-carousel.owl-drag .chavika{
-    background: url('../assets/home//student-says/Chavikala\ Bhargavi.jpg');
+    background: url('/assets/home//student-says/Chavikala\ Bhargavi.webp');
 }
 .student-says .video-carousel.owl-drag .nandini{
-    background: url('../assets/home//student-says/Naga.jpg');
+    background: url('/assets/home//student-says/Naga.webp');
 }
 .student-says .video-carousel.owl-drag .video-review{
     height: 640px;
@@ -1197,3 +1197,25 @@ video {
         top: 95%;
     }
 }
+
+/* Owl Carousel starts only after the page hydrates, and its stylesheet hides carousels until then.
+   Lay the first slides out the way Owl will, so the page doesn't jump when the carousels start. */
+.owl-carousel:not(.owl-loaded) {
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+}
+.owl-carousel:not(.owl-loaded) > * {
+    flex: 0 0 100%;
+}
+@media (min-width: 992px) {
+    .placed-carousel:not(.owl-loaded) > * { flex-basis: calc((100% - 10px) / 2); }
+}
+@media (min-width: 1200px) {
+    .placed-carousel:not(.owl-loaded) > * { flex-basis: calc((100% - 20px) / 3); }
+}
+/* Video reviews only get their height once Owl adds .owl-drag; reserve it before that (same breakpoints). */
+.student-says .video-carousel:not(.owl-loaded) .video-review { height: 640px; border-radius: 20px; }
+@media screen and (max-width: 991px) { .student-says .video-carousel:not(.owl-loaded) .video-review { height: 420px; } }
+@media screen and (max-width: 767px) { .student-says .video-carousel:not(.owl-loaded) .video-review { height: 300px; } }
+@media screen and (max-width: 460px) { .student-says .video-carousel:not(.owl-loaded) .video-review { height: 240px; } }

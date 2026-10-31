@@ -25,7 +25,7 @@
     width: 15px;
     height: 10px;
     margin-left: 5px;
-    background-image: url('../assets/nav/down-arrow.png');
+    background-image: url('/assets/nav/down-arrow.png');
     background-repeat: no-repeat;
     display: inline-block;
 }
@@ -76,8 +76,23 @@
     transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out 0.1s;
 }
  .courses .megamenu-dropdown{
-    width: 650px;
+    width: 840px;
     max-width: 900px;
+}
+/* Four course columns fit side by side from 1200px; narrower desktops get two rows of two. */
+@media (max-width: 1199px) {
+    .courses .megamenu-dropdown{
+        width: 650px;
+    }
+    .courses .megamenu-main-dropdown{
+        flex-wrap: wrap;
+    }
+    .courses .megamenu-main-dropdown > ul{
+        flex: 1 1 40%;
+    }
+}
+.megamenu-main-dropdown a{
+    white-space: nowrap;
 }
 .services-menu .megamenu-dropdown{
     width: 260px;

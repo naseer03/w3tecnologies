@@ -1,5 +1,5 @@
 .services-banner{
-    background:url('../assets/box-bg.png'); 
+    background:url('/assets/box-bg.webp'); 
 }
 h2 {
     font-weight: 700 !important;
@@ -174,4 +174,48 @@ h2 {
         line-height: 56px;
     }
     
+}
+/* ==internship banner stats (was the header.png image)== */
+.internship-stats {
+    container-type: inline-size;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4cqw 3.5cqw;
+}
+.internship-stat {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 935 / 490;
+    padding: 4cqw 2.5cqw;
+    border-radius: 1.5cqw;
+    background: #ff0000;
+    color: var(--white);
+}
+/* Staggered like the original artwork: top row nudged right, bottom row left. */
+.internship-stat:nth-child(-n+2) { transform: translateX(1.7cqw); }
+.internship-stat:nth-child(n+3) { transform: translateX(-1.7cqw); }
+/* Faint grid in the top-right corner. */
+.internship-stat::after {
+    content: "";
+    position: absolute;
+    inset: 0 0 0 auto;
+    width: 45%;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.55) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.55) 1px, transparent 1px);
+    background-size: 3.25cqw 3.25cqw;
+    -webkit-mask-image: radial-gradient(circle at 75% 25%, #000 0%, transparent 70%);
+    mask-image: radial-gradient(circle at 75% 25%, #000 0%, transparent 70%);
+    pointer-events: none;
+}
+.internship-stat p { position: relative; margin: 0; }
+.internship-stat-value {
+    font-size: 6.2cqw;
+    font-weight: 800;
+    line-height: 1;
+}
+.internship-stat-label {
+    margin-top: 1.4cqw !important;
+    font-size: 3cqw;
+    font-weight: 500;
 }

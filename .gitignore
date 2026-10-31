@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+
+# copied from node_modules on install
+public/tinymce
+
+.env
+.env*.local
+.DS_Store
