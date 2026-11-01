@@ -130,7 +130,6 @@ export default function SiteFooter() {
                   className="pt-2"
                   links={[
                     { href: "/about", label: "About Us" },
-                    { href: "/blogs", label: "Blogs" },
                     { href: "/careers", label: "Careers" },
                   ]}
                 />
